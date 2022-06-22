@@ -31,6 +31,38 @@ for (let i = 0; i < 2; i++) {
     }    
 }
 
+// Задание 24 урока первое решение
+// let i = 0;
+// while (i < 2) {
+//     const filmOne = prompt ('Один из последних просмотренных фильмов?', ''),
+//           gradeOne = prompt ('На сколько оцените его?', '');          
+
+//     if (filmOne != null && gradeOne != null && filmOne != '' && gradeOne != '' && filmOne.length < 50) {
+//         personalMovieDB.movies[filmOne] = gradeOne;
+//         console.log('done');
+//     } else {
+//         console.log('error');
+//         i--;
+//     }
+//     i++;   
+// }
+
+// Второе решение
+// do {
+//     const filmOne = prompt ('Один из последних просмотренных фильмов?', ''),
+//           gradeOne = prompt ('На сколько оцените его?', '');          
+
+//     if (filmOne != null && gradeOne != null && filmOne != '' && gradeOne != '' && filmOne.length < 50) {
+//         personalMovieDB.movies[filmOne] = gradeOne;
+//         console.log('done');
+//     } else {
+//         console.log('error');
+//         i--;
+//     }
+//     i++;
+// }
+// while (i < 2);
+
 
 if (personalMovieDB.count < 10 && personalMovieDB.count > 0) {
     alert("Просмотренно довольно мало фильмов");
